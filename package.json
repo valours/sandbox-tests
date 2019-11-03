@@ -1,0 +1,33 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "just for test",
+  "main": " ",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valours/sandbox-tests.git"
+  },
+  "keywords": [
+    "tests",
+    "mocks"
+  ],
+  "author": "Valentin LE FLEM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valours/sandbox-tests/issues"
+  },
+  "homepage": "https://github.com/valours/sandbox-tests#readme",
+  "dependencies": {
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "devDependencies": {
+    "ts-jest": "^24.1.0"
+  }
+}
